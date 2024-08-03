@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.yol img{
+    width: 100%;
+    height: 650px;
+    /* background-color: black; */
+    position: relative;
+    /* background-image: url(/road.jpg);
+    background-repeat: no-repeat;
+    background-size:auto; */
+}
+
+.isiqfor img{
+    width: 100px;
+    height: 250px;
+    /* background-color: rgb(206, 41, 41); */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+.blak{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 100%;
+    
+}
+.red{
+    position: absolute;
+    top: 240px;
+    left: 710px;
+    animation: redd 20s linear infinite ;
+
+}
+@keyframes redd {
+    0%{
+        background-color: rgb(12, 12, 12);
+    }
+    29%{
+       background-color: red;
+    }
+    51%{
+       background-color: rgb(8, 8, 8);
+    }
+    100%{
+        background-color: rgb(10, 10, 10);
+    }
+    
+}
+.yellow{
+    position: absolute;
+    top: 258px;
+    left: 710px;
+    animation: yello 20s linear infinite ;
+
+}
+@keyframes  yello{
+    0%{
+        background-color: rgb(12, 12, 12);
+    }
+    30%{
+        background-color: rgb(7, 7, 7);
+    }
+    52%{
+        background-color: yellow;
+    }
+    58%{
+        background-color: black;
+    }
+    59%{
+        background-color: yellow;
+    }
+    60%{
+background-color: black;
+    }
+
+    100%{
+        background-color: black;
+    }
+    
+}
+.green{
+    position: absolute;
+    top: 276px;
+    left: 710px;
+    animation: greenn 20s linear infinite ;
+    
+}
+@keyframes greenn {
+    0%{
+       background-color: green; 
+    }
+    30%{
+    background-color: black;
+    }
+    52%{
+        background-color: black;
+    }
+    63%{
+        background-color: green;
+    }
+    100%{
+        background-color:green;
+    }
+    
+}
+.masin img{
+    width: 25%;
+    height: 200px;
+    /* background-color: rgb(145, 230, 10); */
+    position: relative;
+    position: absolute;
+    top:480px;
+    /* background-image: url(/car.jpg);
+    background-repeat: no-repeat; */
+    animation: masin 20s linear infinite  ;
+}
+@keyframes masin {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    30%{
+        transform: translateX(450px) translateY(0px);
+    }
+    64%{
+        transform: translateX(450px) translateY(0px);
+    }
+    100%{
+        transform: translateX(1140px) translateY(0px);
+    }
+    
+}
+.teker img{
+    width: 150px;
+    height: 150px;
+    animation: teker 20s linear infinite ;
+    
+
+}
+@keyframes teker {
+   0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    30%{
+        transform: translateX(450px) translateY(0px);
+    }
+    64%{
+        transform: translateX(450px) translateY(0px);
+    }
+    100%{
+        transform: translateX(1140px) translateY(0px);
+    }
+    
+}
+
+.teker-1{
+    position: absolute;
+    top: 57px;
+    left: 5px;
+}
+.teker-2{
+    position: absolute;
+    top: 57px;
+    left: 170px;
+}
